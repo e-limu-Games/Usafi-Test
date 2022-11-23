@@ -1,0 +1,109 @@
+#input-text{
+	font-size: 1em
+}
+
+#button-activity-option{
+	position: relative;
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 120%;
+	font-family: TitilliumWeb-Regular;
+	color: #000000;
+	padding: 1%;
+	width: 200px;
+	text-align: left;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	white-space: normal;
+	cursor: pointer;	
+}
+#button-instruction, #button-nav{
+	position: relative;
+	border: none;
+	border-radius: 4px;
+	font-family: TitilliumWeb-Regular;
+	color: #000000;
+	padding: 1%;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	cursor: pointer;	
+}
+#button-instruction{
+	font-size: 100%;
+	text-align: left;
+}
+#button-nav{
+	font-family: TitilliumWeb-Bold;
+	font-size: 100%;
+	text-align: center;
+}
+
+
+
+#optionButton{
+	position: relative;
+	background-color: #04AA6D;
+	border: none;
+	border-radius: 10px;
+	font-size: 120%;
+	font-family: TitilliumWeb-Regular;
+	color: #FFFFFF;
+	padding: 1%;
+	width: 200px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	white-space: normal;
+	cursor: pointer;
+}
+
+#optionButton:hover,#optionButton:focus,#optionButton:active{
+  filter: brightness(90%);
+}
+
+#getStartedButton, #successButton, #tertiaryButton, #dangerButton{
+	position: relative;
+	border: none;
+	font-size: 90%;
+	font-family: TitilliumWeb-Black;
+	padding: 0%;
+	text-transform: uppercase; 
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	white-space: normal;
+	cursor: pointer;
+}
+#successButton:hover,#successButton:focus,#successButton:active, 
+#dangerButton:hover,#dangerButton:focus,#dangerButton:active, 
+#tertiaryButton:hover,#tertiaryButton:focus,#tertiaryButton:active
+{
+  filter: brightness(90%);
+}
+
+#successButton{
+	background-color: #04AA6D;
+	color: #FFFFFF;
+}
+#dangerButton{
+	background-color: #c02840;
+	color: #FFFFFF;
+}
+#tertiaryButton{
+	background-color: #f48c74;
+	color: #FFFFFF;
+}
+##successButton{
+	background-color: #04AA6D;
+	color: #FFFFFF;
+}
+#getStartedButton{
+	background-color: #f48c74;
+	box-shadow: 0px 8px 15px #f48c74;
+	color: #345566;
+}
+#getStartedButton:hover,#getStartedButton:focus,#getStartedButton:active{
+	background-color: #345566;
+	box-shadow: 0px 8px 15px #345566;
+	color: #f48c74;
+}
